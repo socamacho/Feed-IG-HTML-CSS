@@ -1,0 +1,60 @@
+.container { /*mover sub encima*/
+    background:rgb(200,200,200);
+    height: 500px;
+    width: 800px;
+    margin:auto;
+    font-family:'Mukta', sans-serif;
+
+}
+.header {
+    background-color: white;
+    height:50px;
+}
+.container h1 {
+    text-align: center;
+    background: transparent;
+    height:20px;
+    padding:0;
+    margin:0;
+}
+.feed {
+    background: transparent;
+    background-position: center;
+    height:420px;
+    width: 500px;
+    padding:20px;
+    margin-left: 130px;
+    margin-right: 80px;
+    overflow: hidden;
+}
+.body {
+    background-color:transparent;
+    height: 400px;
+    width: 500px;
+    margin:0;
+    display:hidden;
+}
+.body img {
+    height: 300px;
+    width: 500px;
+    margin-left:auto;
+    margin-right:auto;
+    margin-top:auto;
+
+}
+.footer{
+    background-color: white;
+    height: 130px;
+    width: 500px;
+    overflow: hidden;
+    margin-top: 0;
+    overflow: hidden;
+
+}
+.footer p {
+    text-align: left; /*como unir el footer?*/
+}
+.header span {
+    margin-left: 0;
+    border-right:300px; /*consulta: como desplazo el #?*/
+}
